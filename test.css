@@ -1,0 +1,108 @@
+
+        nav{
+            height:100px;
+            background-color: rosybrown;
+            border-radius: 20px 20px  40px 40px;
+            border: 5px solid white;
+        }
+
+    nav ul {
+          list-style-type: none;
+          padding: 10px 70px;
+          margin: 0;
+          overflow: hidden;
+      }
+        nav li{
+            float: left;
+            
+        }
+        nav li a{
+            display: block;
+            color: white;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 15px;
+        }
+        
+        nav li a:hover{
+            background-color:white; color: black
+        }
+        nav li img{
+            float: left
+        }
+      
+
+        body{
+            background-color: black;
+            font-family:cursive;
+            color:floralwhite
+        }
+    
+     aside{
+            float: right;
+            width: 30%;
+            background: rosybrown;
+            margin-top: -720px;
+            padding: 10px;
+            border-radius: 20px 20px  40px 40px;
+            border: 5px solid white;  
+            }
+        
+        
+        
+/*
+        .active{
+            background-color: tomato
+        }
+*/
+        h2, h3{
+            text-align: center; 
+            background-color: rosybrown;
+            padding: 10px 10px;
+            margin-left: -10px;
+            border-radius: 20px 20px  40px 40px;
+            border: 5px solid white;
+        }
+        
+      
+        
+        main{
+           
+               width: 60%;
+        }
+        footer{
+            text-align: center;
+            padding: 10px;
+            background: rosybrown;
+            margin-top: 30px;
+            font-weight: bolder;
+            font-size: 20px;
+            border-radius: 20px 20px  40px 40px;
+            border: 5px solid white;
+        }
+        
+        table{
+            border-collapse: collapse;
+            border-spacing: 0;
+            width: 100%;
+            border: 4px solid white;
+        }
+        th, td{
+            padding: 10px;
+            border: 5px solid white;
+            background-color: rosybrown;
+        }
+        input[type=text], select, textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid white;
+            border-radius: 4px;
+            box-sizing: border-box;
+            margin-top: 6px;
+            margin-bottom: 16px;
+            resize: vertical;
+        }
+        
+        .clr{
+            clear: both;
+        }
